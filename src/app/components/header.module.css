@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Bank Gothic";
+    src: url(/fonts/bankgothic.otf);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #ff0000;
+    background-color: #f5f5f5;
+}
+.title {
+    color: #666666;
+    font-size: 2rem;
+    font-family: "Bank Gothic";
+}
