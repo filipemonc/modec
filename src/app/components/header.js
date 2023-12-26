@@ -5,13 +5,7 @@ export default function Header() {
     return (
         <header className={styles.header}>
             <div>
-                <Image
-                    src="/img/logo.png"
-                    alt="MODEC"
-                    width={150}
-                    height={35}
-                    priority
-                />
+                <img src="/img/logo.png" alt="MODEC" width={150} height={35} />
             </div>
             <h1 className={styles.title}>Employee Search</h1>
             <div>Welcome, Fulano!</div>
