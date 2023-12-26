@@ -1,7 +1,6 @@
 "use client";
 
-import Image from "next/image";
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import { ResultsContext } from "../page";
 import getData from "../services/getData";
 import styles from "./filters.module.css";
@@ -130,7 +129,7 @@ export default function Filters() {
                                         onClick={() => removeFormFields(index)}
                                         className={styles.addRemoveBtn}
                                     >
-                                        <Image
+                                        <img
                                             src="/img/minus-btn.png"
                                             alt="Remove"
                                             width={20}
@@ -145,7 +144,7 @@ export default function Filters() {
                                         onClick={addFormFields}
                                         className={styles.addRemoveBtn}
                                     >
-                                        <Image
+                                        <img
                                             src="/img/add-btn.png"
                                             alt="Add"
                                             width={20}
